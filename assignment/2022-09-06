@@ -1,0 +1,35 @@
+# fonction & liste
+
+from datetime import datetime
+
+semaine = ("lundi", "mardi", "mercredi", 12, 12.2, "jeudi", "vendredi", "samedi", "daimanche")
+
+print(semaine)
+print(semaine[3])
+
+print()
+
+salutations = ("bonjour"+""+" "+"tout"+" "+"le"+"monde")
+print(salutations)
+
+z = ["laptop", "tablette"]
+# print(z)
+z.append("iphone")
+print(z)
+z.append("samsung")
+print(z)
+z.append("Tecno")
+print(z)
+
+print()
+
+# 2 dictionnaire 
+
+eleves = {"name": "peter", "age":15, "poid":60}
+print(eleves)
+print(eleves.keys())
+print(eleves.values())
+
+# 3 convertir un entier en chaine
+
+mum = ("1987")
